@@ -1,0 +1,98 @@
+﻿Basic Idea Model
+
+
+BASICS:
+1. Multiplayer, 1vs1, 2 Players (Maybe More Players)
+2. Turn Based, Simultaneous Turns (Both Players Take Turns at The Same Time)
+3. Fog Of War Exists (Unless given Vision Cannot See Past a Certain Point)
+4. Tile Based Movement for the Army Units (Army Units Move By Tiles, Imagine Fire Emblem Video Game, Chess, or a Graphing Paper)
+5. Strategy Type RTS Game (Control an Army, use strategy to beat your Opponent)
+
+
+ARMY:
+2 Armies fight each other on a map.
+        Different army unit types: Scouts, Archers, Swordsman, etc.
+        Have different values for each type: Health, Attack, Defense, Movement, Visibility, etc.
+
+
+ARMY BASE:
+Each Player has their own base, this is where the Player has the units start the game at.
+IDEA: The base can also serve as a place where the Player can buy more army units
+IDEA: It can also serve as the game objective, like “Destroy Enemy Base”
+IDEA: As Fog Of War exists, Base could provide a permanent Visibility Bonus to its surrounding Area, (So you can always see what's near you base at all times)
+
+
+POWER SPOT:
+Power Spots exist throughout the map. Have a Unit reach a Power Spot to activate it, 1 of 2 things will happen
+        A: See where all current enemy units are
+        B: See where enemies current Power Spot is, and where their next Power Spot will be
+
+
+Power Spots get 1 Use, and a new Power Spot respawns in 5/10/X amount of turns.
+
+
+Each Army has their own personal Power Spot (Meaning, the Enemy Player Cannot use your Designated Power Spot). Also the Enemy Army will NOT know your current Power Spot, unless they used their Power Spot to find out.
+
+
+Can use the ability of Power Spots to plan and predict what your enemy is/will be doing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RESOURCE AREA:
+There is one Resource Area in the game, it does NOT move in the game. This provides resources to the players, which they can use to buy more units.
+IDEA: Whichever of the Two Players has more units in the area, that person gets more Resources than the other
+IDEA: Could be that you Immediately get the resources OR you have to bring them back to your base
+IDEA: The base can also serve as a place where the Player can buy more army units using these resources
+
+
+FINAL THOUGHTS:
+We Need To Decide The Game Objective that Determines who wins
+        IDEA: Destroy Enemy Base To Win (Probably This is the Best IDEA)
+IDEA: Whoever uses more Power Spots Wins (With a Max Turn Limit)
+IDEA: Whoever gets more Resources Wins (With a Max Turn Limit)
+IDEA: Whoever uses a Power Spots X number of Times Wins
+IDEA: Whoever gets X number of Resources Wins
+
+
+Game is fight each other for the information from Power Spots, as well as compete to gain more Resources to gather up a bigger army.
+
+
+We can ADD more details to the game if needed like, but this is the entire basic layout for the game.
+
+
+
+
+List IDEAS you have Here:
+
+
+IDEA: Incorporate up to 4 players at once
+IDEA: Add a Lot of Maps to play on
+IDEA: Always can add more army unit types
+
+
+
+
+List QUESTIONS you have Here:
+
+
+
+
+UNITY INFO:
+2D/3D native C++ based game engine. Code in C#, Javascript, or Boo
+Unity is Free
+C# is similar syntax to Java, (APIs are very similar), so recommended we code in C#
+Basic Idea/Knowledge Here:
+https://msdn.microsoft.com/en-us/magazine/dn759441.aspx
