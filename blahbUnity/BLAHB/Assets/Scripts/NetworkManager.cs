@@ -23,7 +23,7 @@ public class NetworkManager : MonoBehaviour {
 		{
 			// Create Room
 			if (GUI.Button(new Rect(100, 100, 250, 100), "Start Server"))
-				PhotonNetwork.CreateRoom(roomName + Guid.NewGuid().ToString("N"), true, true, 5);
+				PhotonNetwork.CreateRoom(roomName + Guid.NewGuid().ToString("N"), new RoomOptions() { maxPlayers = 2}, null);
 
 			// Join Room
 			if (roomsList != null)
