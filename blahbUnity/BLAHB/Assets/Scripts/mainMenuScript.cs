@@ -8,7 +8,7 @@ public class mainMenuScript : MonoBehaviour
 
 	public void OnStartGameButton()
 	{
-		SceneManager.LoadScene ("Connection");
+		SceneManager.LoadScene ("GridScene");
 	}
 
 	public void OnCreditsButton()
