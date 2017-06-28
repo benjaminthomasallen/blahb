@@ -1,7 +1,7 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstUnity2D", "Assembly-CSharp.csproj", "{C72D0287-46AC-9A59-E14D-D3278A5FB114}"
+# Visual Studio 2008
+
+Project("{5704D03F-35B2-987A-E69B-AFD144871904}") = "FirstUnity2D", "Assembly-CSharp.csproj", "{C72D0287-46AC-9A59-E14D-D3278A5FB114}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,7 +17,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																														GlobalSection(MonoDevelopProperties) = preSolution
+																																																		GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -36,4 +36,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
