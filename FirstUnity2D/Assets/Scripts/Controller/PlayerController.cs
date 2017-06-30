@@ -42,7 +42,7 @@ public class PlayerController : NetworkBehaviour {
 	}
 
 	[ClientRpc]
-	void RpcMoveToken(bool coinToss)
+	void RpcCoinToss(bool coinToss)
 	{
 		this.PostNotification(CoinToss, coinToss);
 	}
