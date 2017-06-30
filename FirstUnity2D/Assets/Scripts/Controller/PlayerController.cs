@@ -17,13 +17,13 @@ public class PlayerController : NetworkBehaviour {
 	#region NetworkBehaviour
 	public override void OnStartClient()
 	{
-		base.OnStartClient ();
+		base.OnStartClient();
 		this.PostNotification(Started);
 	}
 
 	public override void OnStartLocalPlayer()
 	{
-		base.OnStartLocalPlayer ();
+		base.OnStartLocalPlayer();
 		this.PostNotification(StartedLocal);
 	}
 
@@ -44,7 +44,7 @@ public class PlayerController : NetworkBehaviour {
 	[ClientRpc]
 	void RpcMoveToken(bool coinToss)
 	{
-		this.PostNotification(coinToss, coinToss);
+		this.PostNotification(CoinToss, coinToss);
 	}
 	#endregion
 

@@ -2,7 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class MatchController : MonoBehaviour {
+public class MatchController : MonoBehaviour 
+{
 
 	#region Notifications
 	public const string MatchReady = "MatchController.Ready";
