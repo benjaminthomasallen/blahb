@@ -1,0 +1,53 @@
+Mono path[0] = 'C:/Users/Hunter/Desktop/Files/School Files/College/2017b Summer Semester/FirstUnity2D/test_sandbox/launcher_Data/Managed'
+Mono path[1] = 'C:/Users/Hunter/Desktop/Files/School Files/College/2017b Summer Semester/FirstUnity2D/test_sandbox/launcher_Data/Mono'
+Mono config path = 'C:/Users/Hunter/Desktop/Files/School Files/College/2017b Summer Semester/FirstUnity2D/test_sandbox/launcher_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Hunter/Desktop/Files/School Files/College/2017b Summer Semester/FirstUnity2D/test_sandbox/launcher_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55089
+Multi-casting "[IP] 10.200.35.193 [Port] 55089 [Flags] 2 [Guid] 4055856168 [EditorId] 2855578262 [Version] 1048832 [Id] WindowsPlayer(Mega-Beth) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [10.200.35.193:55089]
+Initialize engine version: 5.2.2f1 (3757309da7e7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 770M (ID=0x11e0)
+    Vendor:   NVIDIA
+    VRAM:     3039 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Hunter\Desktop\Files\School Files\College\2017b Summer Semester\FirstUnity2D\test_sandbox\launcher_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Hunter\Desktop\Files\School Files\College\2017b Summer Semester\FirstUnity2D\test_sandbox\launcher_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Hunter\Desktop\Files\School Files\College\2017b Summer Semester\FirstUnity2D\test_sandbox\launcher_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Hunter\Desktop\Files\School Files\College\2017b Summer Semester\FirstUnity2D\test_sandbox\launcher_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Hunter\Desktop\Files\School Files\College\2017b Summer Semester\FirstUnity2D\test_sandbox\launcher_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Hunter\Desktop\Files\School Files\College\2017b Summer Semester\FirstUnity2D\test_sandbox\launcher_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Hunter\Desktop\Files\School Files\College\2017b Summer Semester\FirstUnity2D\test_sandbox\launcher_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Hunter\Desktop\Files\School Files\College\2017b Summer Semester\FirstUnity2D\test_sandbox\launcher_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Hunter\Desktop\Files\School Files\College\2017b Summer Semester\FirstUnity2D\test_sandbox\launcher_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Hunter\Desktop\Files\School Files\College\2017b Summer Semester\FirstUnity2D\test_sandbox\launcher_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Hunter\Desktop\Files\School Files\College\2017b Summer Semester\FirstUnity2D\test_sandbox\launcher_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Hunter\Desktop\Files\School Files\College\2017b Summer Semester\FirstUnity2D\test_sandbox\launcher_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Hunter\Desktop\Files\School Files\College\2017b Summer Semester\FirstUnity2D\test_sandbox\launcher_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.074 seconds
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Hunter\Desktop\Files\School Files\College\2017b Summer Semester\FirstUnity2D\test_sandbox\launcher_Data\Managed\System.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 8b4 -> priority: 1 
+  Thread -> id: 1740 -> priority: 1 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.733984 ms
+Multiple NetworkManagers detected in the scene. Only one NetworkManager can exist at a time. The duplicate NetworkManager will not be used.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.Networking.NetworkManager:Awake() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:157)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 157)
+
+System memory in use before: 18.4 MB.
+System memory in use after: 18.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 728.
+Total: 0.360939 ms (FindLiveObjects: 0.043192 ms CreateObjectMapping: 0.015395 ms MarkObjects: 0.297218 ms  DeleteObjects: 0.004276 ms)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:60340}
