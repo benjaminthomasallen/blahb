@@ -28,6 +28,10 @@ public class BoardManager : MonoBehaviour {
 		}
 	}
 
+	public GameObject PassObject (int x, int y) {
+		return null;
+	}
+
 	void BoardSetup () {
 		boardHolder = new GameObject ("Board").transform;
 
