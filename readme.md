@@ -5,6 +5,7 @@
 [https://github.com/benjaminthomasallen/blahb/blob/master/Vision%20Statement](https://github.com/benjaminthomasallen/blahb/blob/master/Vision%20Statement)
 
 ## User Stories
+* Is Within Product Backlog
 
 ## Product Backlog
 [https://docs.google.com/spreadsheets/d/1SVdaE-5SVvqLW5RH8NxgwSYnVo-8ERwKmaMCNKL1wBY/edit#gid=0
