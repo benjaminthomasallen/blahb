@@ -46,17 +46,22 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BoardManager.cs" />
+     <Compile Include="Assets\Scripts\BuyOptions.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\Common\NotificationCenter\NotificationCenter.cs" />
      <Compile Include="Assets\Scripts\Common\NotificationCenter\NotificationExtensions.cs" />
      <Compile Include="Assets\Scripts\Controller\GameController.cs" />
      <Compile Include="Assets\Scripts\Controller\MatchController.cs" />
      <Compile Include="Assets\Scripts\Controller\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\EventTriggerer.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\HUDManager.cs" />
      <Compile Include="Assets\Scripts\Loader.cs" />
      <Compile Include="Assets\Scripts\Model\Game.cs" />
      <Compile Include="Assets\Scripts\MovingObject.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Resources.cs" />
+     <Compile Include="Assets\Scripts\TerrainMover.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

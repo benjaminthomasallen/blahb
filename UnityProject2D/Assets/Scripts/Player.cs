@@ -7,6 +7,7 @@ public class Player : MovingObject {
 	public int acquireAmount = 1;
 	public float restartLevelDelay = 1f;
 	public Text resourceText;
+	//private Rigidbody2D rb2D;
 
 	private int resources = 0;
 
