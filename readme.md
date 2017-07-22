@@ -24,6 +24,9 @@
 
 ## Design Documents
 * [Use Case Diagram](https://github.com/benjaminthomasallen/blahb/blob/master/useCase.png)
+* [System Architecture](https://github.com/benjaminthomasallen/blahb/blob/master/System%20Architecture.png)
+* [User Interface, GAME HUD](https://github.com/benjaminthomasallen/blahb/blob/master/User%20Interface%2C%20GAME%20HUD.png)
+* [Class Diagrams](https://github.com/benjaminthomasallen/blahb/blob/master/Class%20Diagrams.png)
 
 ## Code
 
