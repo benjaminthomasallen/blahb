@@ -53,8 +53,10 @@
      <Compile Include="Assets\Scripts\Controller\GameController.cs" />
      <Compile Include="Assets\Scripts\Controller\MatchController.cs" />
      <Compile Include="Assets\Scripts\Controller\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\DefaultUnit.cs" />
      <Compile Include="Assets\Scripts\EventTriggerer.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\GameplayManager.cs" />
      <Compile Include="Assets\Scripts\HUDManager.cs" />
      <Compile Include="Assets\Scripts\Loader.cs" />
      <Compile Include="Assets\Scripts\Model\Game.cs" />

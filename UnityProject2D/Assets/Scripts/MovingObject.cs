@@ -14,7 +14,6 @@ public abstract class MovingObject : MonoBehaviour {
 	protected virtual void Start () {
 		boxCollider = GetComponent<BoxCollider2D> ();
 		rb2D = GetComponent<Rigidbody2D> ();
-		inverseMoveTime = 1f / moveTime;
 	}
 
 	protected bool Move (int xDir, int yDir, out RaycastHit2D hit) {
@@ -26,22 +25,11 @@ public abstract class MovingObject : MonoBehaviour {
 		boxCollider.enabled = true;
 
 		if (hit.transform == null) {
-			StartCoroutine(SmoothMovement (end));
+			transform.position = new Vector3(xDir, yDir, 0f);
 			return true;
 		}
 
 		return false;
-	}
-
-	protected IEnumerator SmoothMovement (Vector3 end) {
-		float sqrRemainingDistance = (transform.position - end).sqrMagnitude;
-
-		while (sqrRemainingDistance > float.Epsilon) {
-			Vector3 newPosition = Vector3.MoveTowards (rb2D.position, end, inverseMoveTime * Time.deltaTime);
-			rb2D.MovePosition (newPosition);
-			sqrRemainingDistance = (transform.position - end).sqrMagnitude;
-			yield return null;
-		}
 	}
 
 	protected virtual void AttemptMove <T> (int xDir, int yDir) where T: Component {

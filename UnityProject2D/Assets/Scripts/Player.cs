@@ -6,14 +6,14 @@ public class Player : MovingObject {
 
 	public int acquireAmount = 1;
 	public float restartLevelDelay = 1f;
-	public Text resourceText;
+	//public Text resourceText = UICanvas.Resources-UI.ResourceText;
 	//private Rigidbody2D rb2D;
 
 	private int resources = 0;
 
 	// Use this for initialization
 	protected override void Start () {
-		resourceText.text = "Resources: " + resources;
+		//resourceText.text = "Resources: " + resources;
 		base.Start ();
 	}
 
@@ -62,7 +62,7 @@ public class Player : MovingObject {
 		gatherResource.AcquireResource (acquireAmount);
 		if (!gatherResource.isPowerSpot && !gatherResource.isDepleted) {
 			resources += gatherResource.resourcePerAcquire;
-			resourceText.text = "Resources: " + resources;
+			//resourceText.text = "Resources: " + resources;
 		}
 	}
 

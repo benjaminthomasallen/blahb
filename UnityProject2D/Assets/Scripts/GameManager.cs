@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
 	public float turnDelay = .1f;
 	public static GameManager instance = null;
 	public BoardManager boardScript;
+	public GameplayManager playScript;
 	[HideInInspector] public bool playersTurn = true;
 
 	private Text menuText;
@@ -23,6 +24,7 @@ public class GameManager : MonoBehaviour {
 			Destroy (gameObject);
 		DontDestroyOnLoad (gameObject);
 		boardScript = GetComponent<BoardManager> ();
+		playScript = GetComponent<GameplayManager>();
 		InitGame ();
 	}
 
@@ -36,6 +38,7 @@ public class GameManager : MonoBehaviour {
 		menuImage.SetActive (true);
 		Invoke ("HideMenuImage", menuStartDelay);
 		boardScript.SetupScene();
+		playScript.SpawnUnits();
 	}
 
 	private void HideMenuImage () {

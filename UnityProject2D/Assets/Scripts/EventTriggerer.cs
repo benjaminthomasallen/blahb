@@ -68,9 +68,7 @@ public class EventTriggerer : MonoBehaviour
 	}
 
 	private void OnMouseDown(){
-		Debug.Log (this.gameObject);
 		requestedTile [0] = BScript.PassObject (3, 6);
-		Debug.Log (requestedTile [0]);
 		previousX = rBody2D.position.x;
 		previousY = rBody2D.position.y;
 		ShadeUp ();
