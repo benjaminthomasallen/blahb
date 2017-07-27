@@ -1,0 +1,41 @@
+fileFormatVersion: 2
+guid: ced668a8b990ea04882dfcc0724a0478
+timeCreated: 1501132601
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - redSwordsmanPrefab: {fileID: 100222, guid: e13688191fcc550488b69319d3f90d59, type: 2}
+  - redKnightPrefab: {fileID: 149500, guid: ee30ce61f005946488f44a5ae5dcbced, type: 2}
+  - redHeavyKnightPrefab: {fileID: 189060, guid: d82703f8fa937cc47b3fe106216176c1,
+      type: 2}
+  - redArcherPrefab: {fileID: 133588, guid: e28d4d3e230ff1f47ac3347546afb913, type: 2}
+  - redLongbowmanPrefab: {fileID: 194074, guid: 1c13143f8016962439f806ed636d0366,
+      type: 2}
+  - redCrossbowmanPrefab: {fileID: 125798, guid: 4125c396e35e09648aa75d7ba2a49bd6,
+      type: 2}
+  - redScoutPrefab: {fileID: 176756, guid: 09af2de383ae0234bab262881064bb61, type: 2}
+  - redHorsemanPrefab: {fileID: 178850, guid: 3415312e7980d834eb1f95880b88cec2, type: 2}
+  - redCalvaryPrefab: {fileID: 172144, guid: 4f39c6f6c1753c64f8053c4ce6157c1f, type: 2}
+  - redAssassinPrefab: {fileID: 147998, guid: 258342b7980c479499b7618aefed6301, type: 2}
+  - redCatapultPrefab: {fileID: 132662, guid: afcc17c72585d954f85a3f04ac946578, type: 2}
+  - blueSwordsmanPrefab: {fileID: 158132, guid: d7f0abd3d5d041448b9c9ef11062c1c8,
+      type: 2}
+  - blueKnightPrefab: {fileID: 161236, guid: 353ed8018f272c44f9959eaf92cae653, type: 2}
+  - blueHeavyKnightPrefab: {fileID: 180056, guid: d8cbf6661b55c26429c8bacaa9162eda,
+      type: 2}
+  - blueArcherPrefab: {fileID: 157306, guid: db0a9bfa3d16c2a42b7b2b033325e428, type: 2}
+  - blueLongbowmanPrefab: {fileID: 134498, guid: 7e0eff27e2880ef4ca08662f598275ad,
+      type: 2}
+  - blueCrossbowmanPrefab: {fileID: 122688, guid: b3ab8c0e4f683b446899934a7652cf7b,
+      type: 2}
+  - blueScoutPrefab: {fileID: 105976, guid: 1e535258bc1e7374ca8685476fd03392, type: 2}
+  - blueHorsemanPrefab: {fileID: 115742, guid: 5bdc159b3e0732049b94dda642b3a56f, type: 2}
+  - blueCalvaryPrefab: {fileID: 109542, guid: 6563b82a2005af14cbd230e8e43cfa7e, type: 2}
+  - blueAssassinPrefab: {fileID: 189858, guid: 7e4e16b666695c048b4b4328181b32dd, type: 2}
+  - blueCatapultPrefab: {fileID: 129092, guid: da4a35b4ccc357f41baca49af95c4a93, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
